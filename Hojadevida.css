@@ -1,0 +1,111 @@
+.hac2{
+    display: grid;
+  place-content: center;
+    color:rgb(255, 255, 255) ;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 30px;
+}
+.hac3{
+    display: grid;
+  place-content: center;
+    color:rgb(255, 255, 255) ;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 30px;
+    
+}
+.hola{
+    color: rgb(255, 81, 0);
+}
+html { 
+    
+    background:rgb(255, 81, 0); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+  }
+img {
+    width: 0,5px;
+}
+p.cursiv {
+    font-family: cursive;
+} 
+
+.fant{
+    font-family: fantasy;
+}
+A href{
+    border: black 10px dotted;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.HOME{
+  background: url("/images/ds.gif") repeat-x;
+  width: 100%;
+  text-align: center;
+}
+header {
+    background: rgb(0, 0, 0);
+    width: 130%;
+    position: fixed;
+    z-index: 100;
+    
+  } 
+nav {
+    float: left;
+}
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+}
+nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+nav ul li:hover {
+    background: #eca023;
+}
+img.mediana{
+    width: 100px;
+    height: 100px;
+  }
+p.caja {
+    width: 1200px;
+    margin:50px 50px;
+    padding:20px;
+    font-size:Arial, Helvetica, sans-serif;;
+    background-color:rgb(0, 0, 0);
+    color:white;
+    
+}
+.hac4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:10px solid rgb(255, 255, 255);
+    display: flex;
+    place-content: center;
+    width:300px;
+    height:300px;
+    border-radius:150px 
+   
+}  
+html{
+    margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+border-color: white;
+}
+
