@@ -17,14 +17,7 @@
     color: rgb(255, 81, 0);
 }
 html { 
-    
-    background:rgb(255, 81, 0); 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    
+    background-image: url(IMAGENES/13.jpg)
   }
 img {
     width: 0,5px;
@@ -96,9 +89,9 @@ p.caja {
     border:10px solid rgb(255, 255, 255);
     display: flex;
     place-content: center;
-    width:300px;
-    height:300px;
-    border-radius:150px 
+    width:400px;
+    height:400px;
+    border-radius:250px 
    
 }  
 html{
@@ -108,4 +101,54 @@ margin-bottom: 10px;
 margin-left: 10px;
 border-color: white;
 }
+p.Datospersonales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1140px;
+    margin:50px 50px;
+    padding:20px;
+    font-size:Arial, Helvetica, sans-serif;;
+    background-color:rgb(0, 0, 0);
+    color:white;
+    font-size: 30px;
+    
+}
+.hac5{
+    display: grid;
+    color:rgb(255, 255, 255) ;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 30px;
+    
+}
+.ha6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:10px solid rgb(255, 255, 255);
+    display: flex;
+    place-content: center;
+    width:300px;
+    height:300px;
+    border-radius:150px
+ }
+.hac7{
+    color:rgb(255, 255, 255) ;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 50px;
 
+}
+.hac8{
+    color:rgb(255, 255, 255) ;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 30px;
+
+}
+.hac9{
+    flex: auto;
+     padding: 10px; 
+     margin: 10px; 
+     border: 2px solid rgb(255, 255, 255); 
+     float: right; 
+    width: 250px; 
+}
